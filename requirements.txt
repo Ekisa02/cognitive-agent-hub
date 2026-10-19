@@ -1,0 +1,3 @@
+# No Python dependencies required for this JS/Hardhat project; kept for CI clarity
+
+# If you add Python scripts / matrix tooling, list dependencies here

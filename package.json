@@ -1,0 +1,17 @@
+{
+  "name": "cognitive-agent-hub",
+  "version": "0.1.0",
+  "description": "Modular on-chain AI Agent Framework (Hardhat + OpenZeppelin)",
+  "private": true,
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "node": "npx hardhat node",
+    "deploy:local": "npx hardhat run --network localhost scripts/deploy.js"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.17.0",
+    "@openzeppelin/contracts": "^4.9.0"
+  }
+}
